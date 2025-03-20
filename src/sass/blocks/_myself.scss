@@ -1,0 +1,97 @@
+.myself {
+    display: grid;
+    margin-top: 51px;
+    column-gap: 57px;
+    row-gap: 40px;
+    h2 {
+        margin-bottom: 0;  
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+    &__line {
+        border: 2px solid rgb(255, 165, 1);
+        width: 60px;
+        margin-bottom: 22px;
+        }
+    &__biger-text {
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+    &__text {
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    &__subtitle {
+        font-weight: 700;
+        position: relative;
+        padding-left: 10px;
+        z-index: 2;
+        @include before_circle;
+    }
+
+
+
+    &__myph {
+        max-width: 413px;
+        max-height: 600px;
+        grid-row: 1/4;
+    }
+    &__descriptions {
+        grid-column: 2/4 ;
+        grid-row: 1/2;
+    }
+    &__text {
+        margin-left: 50px;
+    }
+    .skills {
+        display: grid;
+        grid-row: 2/4;
+        grid-column: 2/4;
+        column-gap: 50px;
+        row-gap: 20px;
+        &__tv_web {
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        &__phone {
+            margin-top: 8px;
+            margin-left: 8px;
+        }
+        &__tv_design {
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        &__web_development {
+                grid-row: 1/2;
+                grid-column: 2/3;
+            }
+        
+            &__mobile_dev {
+                grid-row: 1/2;
+                grid-column: 2/2;
+            }
+        
+            &__design {
+                grid-row: 2/3;
+                grid-column: 1/2;
+            }
+            &__subtitle {
+            font-weight: 700;
+            position: relative;
+            padding-left: 10px;
+            z-index: 2;
+            @include before_circle;
+        }
+        h3 {
+            margin-left: 40px;
+            margin-bottom: 6px;
+            margin-top: -32px;
+        }
+    }
+    
+}

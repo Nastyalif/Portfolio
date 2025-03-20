@@ -1,0 +1,9 @@
+.about {
+    padding-top: 120px;
+    &__descr {
+        padding-top: 6px;
+        .divider {
+            margin: 0;
+        }
+    }
+}
